@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/**********************NAVBAR**************************/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: century gothic;
+    font-weight: bold;
+}
+a:hover{
+    background: grey;
+    transition: 0.3s ease-out;
+}
+ul li ul li{
+    float: none;
+}
+   
+ul li ul{
+      display: none;
+      background-color: darkblue;
+}
+h1, h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: darkblue;
+}
+h6{
+  background-color: darkblue;
+}
+p {
+    font-family: sans-serif;
+}
+table {
+   font-family : Arial, Helvetica, sans-serif;
+   font-size : 100%;
+   font-weight: bold;
+   background-color: white
+}
+.header {
+    background-color: darkblue;
+    height: 100px;
+    text-align: center;
+    color: darkblue;
+    padding: 1px;
+}
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+video{
+    width: 400px;
+    height: 300px;
+}
+
+img{
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px;
+}
+
+.imgright{
+    float: right;
+    width: 360px;
+    height: 260px;
+    padding: 0 10px;
+}
+.left-col, .right-col {
+    background-color: white;
+    width: 25%;
+    float: left;
+}
+
+.center-col {
+    width: 50%;
+    float: left;
+}
+.button{
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid darkblue;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: white;
+    background-color: darkblue;
+}
+/********************SIGN UP FORM***********************/
+input [type=email] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: solid white;
+  box-sizing: border-box;
+}
+input [type=date] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: solid white;
+  box-sizing: border-box;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.signup-form{
+  border-radius: 5px;
+  padding: 20px;
+}
+/********************NEWSLETTER SECTION**********************/
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+
+/********************FOOTER SECTION************************/
+.footer {
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+ }
+ #footer .twitter {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+  }
+  #footer .facebook {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+  }
+  #footer .skype {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -156px 0;
+  }
+  #footer .flickr {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -310px 0;
+  }
+  #footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+  }
+  #footer .twitter:hover {
+    background-position: 0 -56px;
+  }
+  #footer .facebook:hover {
+    background-position: -233px -56px;
+  }
+  #footer .skype:hover {
+    background-position: -156px -56px;
+  }
+  #footer .linkedin:hover {
+    background-position: -78px -56px;
+  }
+  #footer .flickr:hover {
+    background-position: -310px -56px;
+  }
+  .bg-dark-1{
+    background-color: darkblue;
